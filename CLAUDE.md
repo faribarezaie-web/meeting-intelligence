@@ -105,3 +105,4 @@ See `.env.local.example`. Key vars:
 - `@vercel/blob` `get()` returns union `{ statusCode: 200 | 304 }` — check `statusCode === 200`, use `blob.contentType`, read stream via `.getReader()`
 - `start()` cannot be called directly in workflow context — must be inside a `"use step"` function
 - `auth()` and `clerkClient()` are both async in Clerk v7 — always `await`
+npm run db:push
